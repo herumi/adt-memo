@@ -36,3 +36,6 @@ install libraries to $HOME/adt/libs
 make -j
 make install
 ```
+
+## Remark
+You must unset NDK_TOOLCHAIN and repalce $NDK_TOOLCHAIN/bin with $NDK_HOME/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin to path.
